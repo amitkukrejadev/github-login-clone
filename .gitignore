@@ -1,0 +1,8 @@
+# dependencies
+node_modules/
+
+# Tailwind CSS build output
+public/output.css
+
+# misc
+.DS_Store
