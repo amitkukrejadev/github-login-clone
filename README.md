@@ -11,24 +11,25 @@ This is a fully responsive and visually accurate clone of the GitHub login page,
 - Footer links and account prompt styled accurately
 
 ## 📁 Folder Structure
+
 github-login-clone/
-├── index.html              # Main UI file
-├── public/output.css       # Compiled Tailwind output
-├── src/input.css           # Tailwind directives
-├── tailwind.config.js      # Tailwind configuration
-├── package.json            # Node and Tailwind dependencies
-├── .gitignore              # Node_modules & build ignores
+├── index.html # Main UI file
+├── public/output.css # Compiled Tailwind output
+├── src/input.css # Tailwind directives
+├── tailwind.config.js # Tailwind configuration
+├── package.json # Node and Tailwind dependencies
+├── .gitignore # Node_modules & build ignores
 
 ## 🗓️ Timeline
 
-| Date       | Milestone                           |
-|------------|-------------------------------------|
-| June 25    | Project planning & directory setup  |
-| June 26    | Wrote project README.md             |
-| June 27    | Initialized repo and gitignore      |
-| June 28    | Tailwind CLI + base structure       |
-| June 29    | Final UI implemented & polished     |
-| July 2     | Pushed commits to GitHub            |
+| Date    | Milestone                          |
+| ------- | ---------------------------------- |
+| June 25 | Project planning & directory setup |
+| June 26 | Wrote project README.md            |
+| June 27 | Initialized repo and gitignore     |
+| June 28 | Tailwind CLI + base structure      |
+| June 29 | Final UI implemented & polished    |
+| July 2  | Pushed commits to GitHub           |
 
 ## 🚀 Demo
 
@@ -36,4 +37,12 @@ Coming soon — GitHub Pages deployment.
 
 ## 📚 Author
 
-Made with ❤️ by [Amit Kukreja](https://github.com/amitkukrejadev)  
+Made with ❤️ by [Amit Kukreja](https://github.com/amitkukrejadev)
+
+## 🌐 Deployment
+
+To compile Tailwind CSS and view locally:
+
+```bash
+npx tailwindcss -i ./src/input.css -o ./public/output.css --watch
+```
